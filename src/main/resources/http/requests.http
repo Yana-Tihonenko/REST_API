@@ -1,0 +1,14 @@
+POST http://localhost:8080/api/users
+Context-Type: application/json
+{
+"email": "tihonenkoyana@gmail.com"
+"password": "123123"
+}
+
+###
+POST http://localhost:8080/api/users
+Context-Type: application/json
+{
+"email": "tihonenkomisha@gmail.com"
+"password": "qwerty"
+}
