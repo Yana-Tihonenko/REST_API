@@ -1,4 +1,4 @@
-package de.ait.timepad.models;
+package de.ait.timepad.DTO;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,8 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Event {
-
+public class EventDTO {
   private Long id;
   private String name;
   private  String city;
